@@ -1,0 +1,33 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .login-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+ 
+  body.dark .login-card {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  body.dark .form-control {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  .fw-semibold {
+    font-weight: 600;
+  }
+  
